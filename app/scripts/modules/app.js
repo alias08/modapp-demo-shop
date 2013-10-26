@@ -9,8 +9,9 @@ define([
 	'./footer/footer',
 	'./home/home',
 	'./catalog/catalog',
-	'./contacts/contacts'
-], function (App, tpl, Api, Notifier, Login, Register, Header, Footer, Home, Catalog, Contacts) {
+	'./contacts/contacts',
+	'./myAccaunt/myAccaunt'
+], function (App, tpl, Api, Notifier, Login, Register, Header, Footer, Home, Catalog, Contacts, MyAccaunt) {
 
 	var DEFAULT_PAGE = 'home';
 
@@ -31,6 +32,7 @@ define([
 			this.add(new Home());
 			this.add(new Catalog());
 			this.add(new Contacts());
+			this.add(new MyAccaunt());
 			this.add(new Notifier(1));
 		}
 
