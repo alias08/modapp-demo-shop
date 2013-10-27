@@ -1,16 +1,16 @@
 define([
 	'comps/modapp/app',
-	'hbs!./myAccauntMenu-tpl'
+	'hbs!./orders-tpl',
 ], function (App, tpl) {
 
 	return App.Module.extend({
 
 		init: function () {
 			this._super();
-			this.name = 'myAccauntMenu';
+			this.name = 'orders';
 			this.tpl = tpl;
-		},
 
+		},
 
 	});
 });

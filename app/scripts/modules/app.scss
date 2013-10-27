@@ -47,4 +47,17 @@ body {
 		height: 50px;
 		overflow: hidden;
 	}
+
+	.place {
+
+		.nav {
+			float: left;
+			width: 210px;
+			margin-right: 10px;
+			border-right: 1px solid #ddd;
+			padding-right: 10px;
+		}
+
+		.content {margin-left: 220px;}
+	}
 }
